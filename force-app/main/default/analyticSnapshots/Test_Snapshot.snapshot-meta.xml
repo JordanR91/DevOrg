@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <mappings>
+        <sourceField>JobName</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Cases_Snapshot__c.Name</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ACCOUNT.NAME</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Cases_Snapshot__c.Account_Name__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>STATUS</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Cases_Snapshot__c.Case_Status__c</targetField>
+    </mappings>
+    <name>Test Snapshot</name>
+    <runningUser>jordanr91@live.co.uk</runningUser>
+    <sourceReport>unfiled$public/Cases_Report_for_Snapshot</sourceReport>
+    <targetObject>Cases_Snapshot__c</targetObject>
+</AnalyticSnapshot>
